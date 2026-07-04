@@ -1,0 +1,208 @@
+{
+  "id": "atlas",
+  "nombre": "Atlas",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Supervivencia",
+    "Daño"
+  ],
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "La resistencia de los Retumbos luchadores es influenciada por la salud, escudos, armadura y fuerza de habilidad de Atlas.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/atlas/Atlas.png",
+    "hero": "",
+    "prime": "/warframes-assets/atlas/AtlasPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 550,
+      "barBase": 33,
+      "barPrime": 68
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 455,
+      "barBase": 33,
+      "barPrime": 56
+    },
+    "armadura": {
+      "base": 475,
+      "prime": 500,
+      "barBase": 59,
+      "barPrime": 62
+    },
+    "energia": {
+      "base": 175,
+      "prime": 215,
+      "barBase": 22,
+      "barPrime": 27
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Atlas",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Atlas",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Atlas",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Atlas",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Atlas",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Atlas",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Atlas",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Atlas",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Atlas",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Atlas",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "mag",
+  "nombre": "Mag",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Control de Multitudes",
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Lanza Magnetizar en enemigos de alta prioridad para mantenerlos a raya e inflingirles daño continuo.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/mag/Mag.png",
+    "hero": "",
+    "prime": "/warframes-assets/mag/MagPrime.webp"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 180,
+      "prime": 270,
+      "barBase": 22,
+      "barPrime": 33
+    },
+    "escudo": {
+      "base": 455,
+      "prime": 455,
+      "barBase": 56,
+      "barPrime": 56
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 135,
+      "barBase": 13,
+      "barPrime": 17
+    },
+    "energia": {
+      "base": 140,
+      "prime": 215,
+      "barBase": 17,
+      "barPrime": 27
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Mag",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Mag",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Mag",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Mag",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Mag",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Mag",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Mag",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Mag",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Mag",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Mag",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

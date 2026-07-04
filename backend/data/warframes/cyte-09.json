@@ -1,0 +1,208 @@
+{
+  "id": "cyte-09",
+  "nombre": "Cyte-09",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Sigilo"
+  ],
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Evasión evita el retraso de regeneración de escudo de Cyte-09, sus escudos comienzan a regenerarse inmediatamente después del lanzamiento.",
+  "tipDestacados": [],
+  "tienePrime": false,
+  "imagenes": {
+    "perfil": "/warframes-assets/cyte-09/Cyte09.png",
+    "hero": "",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 225,
+      "prime": "",
+      "barBase": 28,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 135,
+      "prime": "",
+      "barBase": 17,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 150,
+      "prime": "",
+      "barBase": 19,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 180,
+      "prime": "",
+      "barBase": 22,
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Cyte-09",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Cyte-09",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Cyte-09",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Cyte-09",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Cyte-09",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Cyte-09",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Cyte-09",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Cyte-09",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Cyte-09",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Cyte-09",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "id": "khora",
+  "nombre": "Khora",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Control de Multitudes",
+    "Daño"
+  ],
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Venari otorga a Khora una mejora permanente a su velocidad de movimiento, que escala con fuerza de habilidad.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/khora/Khora.png",
+    "hero": "",
+    "prime": "/warframes-assets/khora/KhoraPrime.webp"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 365,
+      "prime": 365,
+      "barBase": 45,
+      "barPrime": 45
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 365,
+      "barBase": 33,
+      "barPrime": 45
+    },
+    "armadura": {
+      "base": 290,
+      "prime": 345,
+      "barBase": 36,
+      "barPrime": 43
+    },
+    "energia": {
+      "base": 140,
+      "prime": 175,
+      "barBase": 17,
+      "barPrime": 22
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Khora",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Khora",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Khora",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Khora",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Khora",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Khora",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Khora",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Khora",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Khora",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Khora",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

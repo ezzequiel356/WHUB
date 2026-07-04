@@ -1,0 +1,208 @@
+{
+  "id": "sevagoth",
+  "nombre": "Sevagoth",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Supervivencia"
+  ],
+  "complejidad": 5,
+  "complejidadMax": 5,
+  "tip": "Lanza Absorción en la Sombra de Sevagoth sin un objetivo para una mayor movilidad horizontal.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/sevagoth/Sevagoth.png",
+    "hero": "",
+    "prime": "/warframes-assets/sevagoth/SevagothPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 270,
+      "barBase": 33,
+      "barPrime": 33
+    },
+    "escudo": {
+      "base": 235,
+      "prime": 270,
+      "barBase": 29,
+      "barPrime": 33
+    },
+    "armadura": {
+      "base": 160,
+      "prime": 185,
+      "barBase": 20,
+      "barPrime": 23
+    },
+    "energia": {
+      "base": 140,
+      "prime": 175,
+      "barBase": 17,
+      "barPrime": 22
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Sevagoth",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Sevagoth",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Sevagoth",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Sevagoth",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Sevagoth",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Sevagoth",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Sevagoth",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Sevagoth",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Sevagoth",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Sevagoth",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

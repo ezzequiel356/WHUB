@@ -1,0 +1,208 @@
+{
+  "id": "koumei",
+  "nombre": "Koumei",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Supervivencia"
+  ],
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Un tipo de arma siempre se verá afectado por la pasiva de Koumei, lo que le permitirá infligir efectos de estado adicionales. Presta atención al tipo de arma bajo el efecto de la actualización y cámbiala como corresponde!",
+  "tipDestacados": [],
+  "tienePrime": false,
+  "imagenes": {
+    "perfil": "/warframes-assets/koumei/Koumei.png",
+    "hero": "",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 344,
+      "prime": "",
+      "barBase": 42,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 122,
+      "prime": "",
+      "barBase": 15,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 444,
+      "prime": "",
+      "barBase": 55,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 122,
+      "prime": "",
+      "barBase": 15,
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Koumei",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Koumei",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Koumei",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Koumei",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Koumei",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Koumei",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Koumei",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Koumei",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Koumei",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Koumei",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": "limbo",
+  "nombre": "Limbo",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Control de Multitudes",
+  "complejidad": 5,
+  "complejidadMax": 5,
+  "tip": "Desterrar se puede usar para proteger a los aliados vulnerables, incluyendo a los amigables PNJ.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/limbo/Limbo.png",
+    "hero": "",
+    "prime": "/warframes-assets/limbo/LimboPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 270,
+      "barBase": 33,
+      "barPrime": 33
+    },
+    "escudo": {
+      "base": 180,
+      "prime": 270,
+      "barBase": 22,
+      "barPrime": 33
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 135,
+      "barBase": 13,
+      "barPrime": 17
+    },
+    "energia": {
+      "base": 175,
+      "prime": 215,
+      "barBase": 22,
+      "barPrime": 27
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Limbo",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Limbo",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Limbo",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Limbo",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Limbo",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Limbo",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Limbo",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Limbo",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Limbo",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Limbo",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

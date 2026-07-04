@@ -1,0 +1,643 @@
+{
+  "id": "nova",
+  "nombre": "Nova",
+  "epiteto": "Emperatriz Antimateria",
+  "subtitulo": "// CODEX ENTRY · TENNO WARFRAME · DESIGNACIÓN: ENTIDAD DE MANIPULACIÓN DE ANTIMATERIA CLASE NOVA",
+  "rol": "Daño",
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Nova y sus aliados pueden disparar el orbe de Gota de antimateria para incrementar el daño de sus detonaciones. Hacer que Gota de antimateria atraviese un agujero de gusano carga parcialmente la detonación.",
+  "tipDestacados": [
+    "Antimateria",
+    "Control"
+  ],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/nova/Nova.webp",
+    "hero": "/warframes-assets/nova/novaprime2.png",
+    "prime": "/warframes-assets/nova/NovaPrime.webp"
+  },
+  "info": {
+    "sexo": "Femenino",
+    "maestria": "0",
+    "lanzamiento": "Jul 13, 2013",
+    "actualizacion": "Update 9.0",
+    "polaridades": [
+      "Madurai",
+      "Madurai"
+    ],
+    "polaridadExilus": "-",
+    "polaridadAura": "Naramon",
+    "velocidad": 1.2,
+    "playstyle": "Daño, Control de multitudes",
+    "helminto": "Null Star",
+    "progenitor": "Electricidad",
+    "progenitorEmoji": "⚡"
+  },
+  "danio": [
+    {
+      "tipo": "Radiación",
+      "emoji": "☢️",
+      "clase": "radiation"
+    },
+    {
+      "tipo": "Explosión",
+      "emoji": "💥",
+      "clase": "blast"
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 270,
+      "barBase": 33,
+      "barPrime": 33
+    },
+    "escudo": {
+      "base": 180,
+      "prime": 270,
+      "barBase": 22,
+      "barPrime": 33
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 135,
+      "barBase": 13,
+      "barPrime": 17
+    },
+    "energia": {
+      "base": 175,
+      "prime": 215,
+      "barBase": 22,
+      "barPrime": 27
+    }
+  },
+  "descripcion": [
+    "Nova es un Warframe especializada en la Antimateria, introducida en la Actualización 9. Utiliza antipartículas para controlar multitudes y potenciar su capacidad destructiva, desestabilizando la materia misma para aniquilar a sus enemigos. Aunque es relativamente frágil debido a su baja capacidad de escudos y la ausencia de habilidades defensivas directas, compensa estas debilidades con un arsenal ofensivo devastador, capaz de acabar con olas enteras de enemigos."
+  ],
+  "lore": "Esta es Nova, y es extremadamente impredecible. La presencia de Nova en el campo de batalla es compleja y mortal. Manéjela con cuidado, Tenno.",
+  "habilidades": [
+    {
+      "key": "1",
+      "nombre": "Null Star",
+      "imagen": "/warframes-assets/nova/abilities/NullStar.png",
+      "imagenPopup": "/warframes-assets/nova/abilities/hovernullstar.png",
+      "video": "",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "25",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Partículas de antimateria",
+          "valor": "12",
+          "clase": "green"
+        },
+        {
+          "label": "Reducción de daño / partícula",
+          "valor": "5%",
+          "clase": "green"
+        },
+        {
+          "label": "Reducción de daño máxima",
+          "valor": "90%",
+          "clase": "green"
+        },
+        {
+          "label": "Radio",
+          "valor": "10m",
+          "clase": "green"
+        },
+        {
+          "label": "Daño",
+          "valor": "300",
+          "clase": "green",
+          "icono": "explosion"
+        }
+      ],
+      "augment": "Neutron Star: Las partículas causan 240 de Daño de Calor con Efecto de Estado garantizado en 8 metros. Al relanzar la habilidad, las partículas restantes buscan enemigos con el doble de radio de búsqueda.",
+      "descripcion": "Crea partículas de antimateria que orbitan a Nova y atacan a los enemigos cercanos. Cada partícula activa reduce el daño recibido en la Salud y los Escudos de Nova."
+    },
+    {
+      "key": "2",
+      "nombre": "Antimatter Drop",
+      "imagen": "/warframes-assets/nova/abilities/AntimatterDrop.png",
+      "imagenPopup": "/warframes-assets/nova/abilities/hoverantimatterdrop.png",
+      "video": "",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "50",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Radio",
+          "valor": "15m",
+          "clase": "green"
+        },
+        {
+          "label": "Daño del orbe",
+          "valor": "200",
+          "clase": "green",
+          "icono": "explosion"
+        },
+        {
+          "label": "Multiplicador de proyectil",
+          "valor": "8x",
+          "clase": "green"
+        }
+      ],
+      "augment": "Antimatter Absorb: Absorbe las balas de los enemigos en 5m, aumentando el poder de la explosión de la partícula de antimateria de Nova.",
+      "descripcion": "Lanza una gran partícula de antimateria cargada que detona al contacto. Dirígela apuntando hacia ella o dispárale para cargarla aún más. Inflige Daño de Explosión con un Efecto de Estado garantizado."
+    },
+    {
+      "key": "3",
+      "nombre": "Wormhole",
+      "imagen": "/warframes-assets/nova/abilities/WormHole.png",
+      "imagenPopup": "/warframes-assets/nova/abilities/hoverwormhole.png",
+      "video": "",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "75",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Número de portales",
+          "valor": "4",
+          "clase": "green"
+        },
+        {
+          "label": "Número de usos",
+          "valor": "4",
+          "clase": "green"
+        },
+        {
+          "label": "Rango",
+          "valor": "50m",
+          "clase": "green"
+        }
+      ],
+      "augment": "Escape Velocity: Los aliados que viajan a través del agujero de gusano obtienen un 50% de bonificación a la velocidad de movimiento durante 7 segundos.",
+      "descripcion": "Crea un agujero de gusano que permite el viaje instantáneo. Mantén la habilidad para visualizar la ubicación de colocación."
+    },
+    {
+      "key": "4",
+      "nombre": "Molecular Prime",
+      "imagen": "/warframes-assets/nova/abilities/MolecularPrime.png",
+      "imagenPopup": "/warframes-assets/nova/abilities/hovermolecularprime.png",
+      "video": "",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "100",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Radio",
+          "valor": "35m",
+          "clase": "green"
+        },
+        {
+          "label": "Ralentización / Aceleración",
+          "valor": "50%",
+          "clase": "green"
+        },
+        {
+          "label": "Vulnerabilidad al daño",
+          "valor": "100%",
+          "clase": "green"
+        },
+        {
+          "label": "Daño de explosión",
+          "valor": "800",
+          "clase": "green",
+          "icono": "explosion"
+        },
+        {
+          "label": "Radio de explosión",
+          "valor": "10m",
+          "clase": "green"
+        },
+        {
+          "label": "Duración del prime",
+          "valor": "6s",
+          "clase": "green"
+        },
+        {
+          "label": "Duración del efecto",
+          "valor": "30s",
+          "clase": "green"
+        }
+      ],
+      "augment": "Molecular Fission: Los enemigos impactados por Null Star quedan marcados. Al morir, restauran una carga de Null Star y tienen un 100% de probabilidad de restaurar una carga adicional.",
+      "descripcion": "Impregna a todos los enemigos en un radio expansivo con antimateria volátil. Presiona la habilidad para ralentizar el movimiento enemigo, mantenla para acelerarlos. Los enemigos afectados explotan al morir, infligiendo Daño de Explosión a los cercanos."
+    },
+    {
+      "key": "pasiva",
+      "nombre": "Pasiva",
+      "imagen": "/warframes-assets/shared/abilities/passive.png",
+      "video": null,
+      "tieneAugment": false,
+      "stats": [],
+      "augment": null,
+      "descripcion": "Los enemigos eliminados mientras están ralentizados tienen un 15% de probabilidad de soltar orbes de salud. Los enemigos eliminados mientras están acelerados tienen un 15% de probabilidad de soltar orbes de energía."
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "12 horas",
+    "tiempoTotal": "72 horas",
+    "creditosTotal": 70000,
+    "costoRush": 50,
+    "partes": [
+      {
+        "nombre": "Neuroptics",
+        "imagen": "/warframes-assets/shared/parts/Neuroptics.webp",
+        "creditos": 15000,
+        "materiales": [
+          {
+            "nombre": "Placa de Aleación",
+            "imagen": "/warframes-assets/shared/materials/AlloyPlate.webp",
+            "cantidad": "150",
+            "fuente": "Venus, Júpiter, Ceres, Sedna, Plutón"
+          },
+          {
+            "nombre": "Sensores Neuronales",
+            "imagen": "/warframes-assets/shared/materials/Sensores_neuronales.webp",
+            "cantidad": "1",
+            "fuente": "Júpiter, Fortaleza Kuva"
+          },
+          {
+            "nombre": "Polímeros",
+            "imagen": "/warframes-assets/shared/materials/PolymerBundle.webp",
+            "cantidad": "150",
+            "fuente": "Mercurio, Venus, Urano"
+          },
+          {
+            "nombre": "Rubedo",
+            "imagen": "/warframes-assets/shared/materials/Rubedo.webp",
+            "cantidad": "500",
+            "fuente": "Fobos, Tierra, Plutón, Europa, Sedna"
+          }
+        ]
+      },
+      {
+        "nombre": "Chassis",
+        "imagen": "/warframes-assets/shared/parts/Chassis.webp",
+        "creditos": 15000,
+        "materiales": [
+          {
+            "nombre": "Mórficos",
+            "imagen": "/warframes-assets/shared/materials/Morficos.webp",
+            "cantidad": "1",
+            "fuente": "Mercurio, Marte, Europa, Plutón"
+          },
+          {
+            "nombre": "Ferrita",
+            "imagen": "/warframes-assets/shared/materials/Ferrita.webp",
+            "cantidad": "1000",
+            "fuente": "Mercurio, Tierra, Neptuno, Vacío"
+          },
+          {
+            "nombre": "Rubedo",
+            "imagen": "/warframes-assets/shared/materials/Rubedo.webp",
+            "cantidad": "300",
+            "fuente": "Fobos, Tierra, Plutón, Europa, Sedna"
+          }
+        ]
+      },
+      {
+        "nombre": "Systems",
+        "imagen": "/warframes-assets/shared/parts/Systems.webp",
+        "creditos": 15000,
+        "materiales": [
+          {
+            "nombre": "Módulo de control",
+            "imagen": "/warframes-assets/shared/materials/Modulo_de_control.webp",
+            "cantidad": "1",
+            "fuente": "Neptuno, Europa"
+          },
+          {
+            "nombre": "Mórficos",
+            "imagen": "/warframes-assets/shared/materials/Morficos.webp",
+            "cantidad": "1",
+            "fuente": "Mercurio, Marte, Europa, Plutón"
+          },
+          {
+            "nombre": "Restos",
+            "imagen": "/warframes-assets/shared/materials/Salvage.webp",
+            "cantidad": "500",
+            "fuente": "Marte, Júpiter, Sedna"
+          },
+          {
+            "nombre": "Plastidos",
+            "imagen": "/warframes-assets/shared/materials/plastidos.webp",
+            "cantidad": "600",
+            "fuente": "Saturno, Urano, Fobos, Plutón, Eris"
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [
+      "nova_prime_blueprint",
+      "nova_prime_neuroptics_blueprint",
+      "nova_prime_chassis_blueprint",
+      "nova_prime_systems_blueprint"
+    ],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Neuroptics Prime",
+          "imagen": "/warframes-assets/shared/parts/neuropticsprime.png",
+          "creditos": 15000,
+          "materiales": [
+            {
+              "nombre": "Rubedo",
+              "imagen": "/warframes-assets/shared/materials/Rubedo.webp",
+              "cantidad": "200",
+              "fuente": "Fobos, Tierra, Plutón, Europa, Sedna"
+            },
+            {
+              "nombre": "Sensores Neuronales",
+              "imagen": "/warframes-assets/shared/materials/Sensores_neuronales.webp",
+              "cantidad": "1",
+              "fuente": "Júpiter, Fortaleza Kuva"
+            },
+            {
+              "nombre": "Nanoesporas",
+              "imagen": "/warframes-assets/shared/materials/Nanoesporas.webp",
+              "cantidad": "400",
+              "fuente": "Saturno, Neptuno, Eris, Derrelicto Orokin"
+            },
+            {
+              "nombre": "Plastidos",
+              "imagen": "/warframes-assets/shared/materials/plastidos.webp",
+              "cantidad": "500",
+              "fuente": "Saturno, Urano, Fobos, Plutón, Eris"
+            }
+          ]
+        },
+        {
+          "nombre": "Chassis Prime",
+          "imagen": "/warframes-assets/shared/parts/chassisprime.webp",
+          "creditos": 15000,
+          "materiales": [
+            {
+              "nombre": "Mórficos",
+              "imagen": "/warframes-assets/shared/materials/Morficos.webp",
+              "cantidad": "1",
+              "fuente": "Mercurio, Marte, Europa, Plutón"
+            },
+            {
+              "nombre": "Polímeros",
+              "imagen": "/warframes-assets/shared/materials/PolymerBundle.webp",
+              "cantidad": "1000",
+              "fuente": "Mercurio, Venus, Urano"
+            },
+            {
+              "nombre": "Circuitos",
+              "imagen": "/warframes-assets/shared/materials/Circuitos.webp",
+              "cantidad": "300",
+              "fuente": "Venus, Ceres"
+            }
+          ]
+        },
+        {
+          "nombre": "Systems Prime",
+          "imagen": "/warframes-assets/shared/parts/systemsprime.webp",
+          "creditos": 15000,
+          "materiales": [
+            {
+              "nombre": "Módulo de control",
+              "imagen": "/warframes-assets/shared/materials/Modulo_de_control.webp",
+              "cantidad": "1",
+              "fuente": "Neptuno, Europa"
+            },
+            {
+              "nombre": "Mórficos",
+              "imagen": "/warframes-assets/shared/materials/Morficos.webp",
+              "cantidad": "1",
+              "fuente": "Mercurio, Marte, Europa, Plutón"
+            },
+            {
+              "nombre": "Ferrita",
+              "imagen": "/warframes-assets/shared/materials/Ferrita.webp",
+              "cantidad": "600",
+              "fuente": "Mercurio, Tierra, Neptuno, Vacío"
+            },
+            {
+              "nombre": "Circuitos",
+              "imagen": "/warframes-assets/shared/materials/Circuitos.webp",
+              "cantidad": "200",
+              "fuente": "Venus, Ceres"
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Nova Prime Blueprint",
+          "imagen": "/warframes-assets/nova/NovaPrime.webp",
+          "reliquias": []
+        },
+        {
+          "nombre": "Nova Prime Neuroptics",
+          "imagen": "/warframes-assets/shared/parts/neuropticsprime.png",
+          "reliquias": []
+        },
+        {
+          "nombre": "Nova Prime Chassis",
+          "imagen": "/warframes-assets/shared/parts/chassisprime.webp",
+          "reliquias": []
+        },
+        {
+          "nombre": "Nova Prime Systems",
+          "imagen": "/warframes-assets/shared/parts/systemsprime.webp",
+          "reliquias": []
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Plano Principal",
+        "imagen": "/warframes-assets/nova/Nova.webp",
+        "fuente": "Mercado",
+        "probabilidad": "",
+        "esperado": ""
+      },
+      {
+        "nombre": "Chasis Blueprint",
+        "imagen": "/warframes-assets/shared/parts/Chassis.webp",
+        "fuente": "Raptors Assassination",
+        "probabilidad": "38.72%",
+        "esperado": "~ 2 asesinatos"
+      },
+      {
+        "nombre": "Neuroptics Blueprint",
+        "imagen": "/warframes-assets/shared/parts/Neuroptics.webp",
+        "fuente": "Raptors Assassination",
+        "probabilidad": "38.72%",
+        "esperado": "~ 2 asesinatos"
+      },
+      {
+        "nombre": "Systems Blueprint",
+        "imagen": "/warframes-assets/shared/parts/Systems.webp",
+        "fuente": "Raptors Assassination",
+        "probabilidad": "22.56%",
+        "esperado": "~ 4 asesinatos"
+      }
+    ]
+  },
+  "curiosidades": [
+    "Nova es uno de los Warframes más rápidos con la velocidad básica, el primero es Loki y al nivel de Mirage.",
+    "Actualmente es uno de los cuatro Warframes que tiene tres cascos alternativos. Los otros son Loki, Excalibur y Vauban.",
+    "Nova es el último Warframe que posee un casco que le otorgue cambios estadísticos (Casco Flux de Nova), ya que todos los cascos que han salido luego de Nekros son solo cosméticos.",
+    "Tanto el nombre de este Warframe como el de sus habilidades fueron elegidos por presentaciones del Consejo de Diseños, siendo filtrados por Digital Extremes y posteriormente votados por la comunidad del Consejo de Diseño."
+  ],
+  "build": {
+    "votos": 1400,
+    "label": "Tanky Slow/Fast Nova",
+    "formas": 3,
+    "itemRank": 30,
+    "itemRankMax": 74,
+    "itemRankActual": 6,
+    "orokinReactor": true,
+    "stats": {
+      "duracion": {
+        "valor": "306%",
+        "positivo": true
+      },
+      "eficiencia": {
+        "valor": "130%",
+        "positivo": true
+      },
+      "rango": {
+        "valor": "34%",
+        "positivo": false
+      },
+      "fuerza": {
+        "valor": "145%",
+        "positivo": true
+      }
+    },
+    "mods": [
+      {
+        "tipo": "aura",
+        "nombre": "Corrosive Projection",
+        "imagen": "/warframes-assets/shared/mods/Corrosive-Projection.png",
+        "tooltip": "/warframes-assets/shared/mods/CorrosiveProjectionMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "exilus",
+        "nombre": "Power Drift",
+        "imagen": "/warframes-assets/shared/mods/Power-Drift.png",
+        "tooltip": "/warframes-assets/shared/mods/PowerDriftMod.png",
+        "polaridad": "Zenurik",
+        "polaridadImg": "/warframes-assets/shared/polarities/Zenurik_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Primed Continuity",
+        "imagen": "/warframes-assets/shared/mods/Primed-Continuity.png",
+        "tooltip": "/warframes-assets/shared/mods/PrimedContinuityMod.webp",
+        "polaridad": "Madurai",
+        "polaridadImg": "/warframes-assets/shared/polarities/Madurai_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Vitality",
+        "imagen": "/warframes-assets/shared/mods/Vitality.png",
+        "tooltip": "/warframes-assets/shared/mods/VitalityMod.png",
+        "polaridad": "Vazarin",
+        "polaridadImg": "/warframes-assets/shared/polarities/Vazarin_Pol.svg",
+        "forma": true
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Narrow Minded",
+        "imagen": "/warframes-assets/shared/mods/Narrow-Minded.png",
+        "tooltip": "/warframes-assets/shared/mods/NarrowMindedMod.png",
+        "polaridad": "Vazarin",
+        "polaridadImg": "/warframes-assets/shared/polarities/Vazarin_Pol.svg",
+        "forma": true
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Streamline",
+        "imagen": "/warframes-assets/shared/mods/Streamline.png",
+        "tooltip": "/warframes-assets/shared/mods/StreamlineMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Intensify",
+        "imagen": "/warframes-assets/shared/mods/Intensify.png",
+        "tooltip": "/warframes-assets/shared/mods/IntensifyMod.png",
+        "polaridad": "Madurai",
+        "polaridadImg": "/warframes-assets/shared/polarities/Madurai_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Molecular Fission",
+        "imagen": "/warframes-assets/shared/mods/Molecular-Fission.png",
+        "tooltip": "/warframes-assets/shared/mods/MolecularFissionMod.png",
+        "polaridad": "Zenurik",
+        "polaridadImg": "/warframes-assets/shared/polarities/Zenurik_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Augur Message",
+        "imagen": "/warframes-assets/shared/mods/Augur-Message.png",
+        "tooltip": "/warframes-assets/shared/mods/AugurMessageMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Constitution",
+        "imagen": "/warframes-assets/shared/mods/Constitution.png",
+        "tooltip": "/warframes-assets/shared/mods/ConstitutionMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": true
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Arcane Grace",
+        "imagen": "/warframes-assets/shared/arcanes/ArcaneGrace.png",
+        "descripcion": "En daño recibido: 54% chances para 6% regeneración de vida por 9 segundos."
+      },
+      {
+        "nombre": "Arcane Guardian",
+        "imagen": "/warframes-assets/shared/arcanes/ArcaneGuardian.png",
+        "descripcion": "En daño: 90% chances para +900 de Armadura por 20 segundos."
+      }
+    ]
+  }
+}

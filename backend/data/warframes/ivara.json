@@ -1,0 +1,205 @@
+{
+  "id": "ivara",
+  "nombre": "Ivara",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Sigilo",
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Dispara una flecha de camuflaje de la Aljaba de Ivara a aliados para otorgarles invisibilidad temporalmente.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/ivara/Ivara.webp",
+    "hero": "",
+    "prime": "/warframes-assets/ivara/IvaraPrime.webp"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 180,
+      "prime": 180,
+      "barBase": 22,
+      "barPrime": 22
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 455,
+      "barBase": 33,
+      "barPrime": 56
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 135,
+      "barBase": 13,
+      "barPrime": 17
+    },
+    "energia": {
+      "base": 215,
+      "prime": 250,
+      "barBase": 27,
+      "barPrime": 31
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Ivara",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Ivara",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Ivara",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Ivara",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Ivara",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Ivara",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Ivara",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Ivara",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Ivara",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Ivara",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

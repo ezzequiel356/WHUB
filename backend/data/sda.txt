@@ -1,0 +1,155 @@
+{
+  "id": "",
+  "nombre": "",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "",
+  "complejidad": "",
+  "complejidadMax": "",
+  "tip": "",
+  "tipDestacados": [],
+  "tienePrime": "",
+
+  "imagenes": {
+    "perfil": "",
+    "hero": "",
+    "prime": ""
+  },
+
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+
+  "danio": [
+    { "tipo": "", "emoji": "", "clase": "" }
+  ],
+
+  "stats": {
+    "vida":     { "base": "", "prime": "", "barBase": "", "barPrime": "" },
+    "escudo":   { "base": "", "prime": "", "barBase": "", "barPrime": "" },
+    "armadura": { "base": "", "prime": "", "barBase": "", "barPrime": "" },
+    "energia":  { "base": "", "prime": "", "barBase": "", "barPrime": "" }
+  },
+
+  "descripcion": [],
+
+  "lore": "",
+
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        { "label": "", "valor": "", "clase": "", "icono": "" }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          { "nombre": "", "imagen": "", "cantidad": "", "fuente": "" }
+        ]
+      }
+    ]
+  },
+
+  "prime": {
+    "tienePrime": "",
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            { "nombre": "", "imagen": "", "cantidad": "", "fuente": "" }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": { "intact": "", "exceptional": "", "flawless": "", "radiant": "" }
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "adquisicion": {
+    "nonPrime": [
+      { "nombre": "", "imagen": "", "fuente": "", "probabilidad": "", "esperado": "" }
+    ]
+  },
+
+  "curiosidades": [],
+
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion":   { "valor": "", "positivo": "" },
+      "eficiencia": { "valor": "", "positivo": "" },
+      "rango":      { "valor": "", "positivo": "" },
+      "fuerza":     { "valor": "", "positivo": "" }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

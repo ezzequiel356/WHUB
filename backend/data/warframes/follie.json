@@ -1,0 +1,208 @@
+{
+  "id": "follie",
+  "nombre": "Follie",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Control de Multitudes"
+  ],
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "La belleza de un sombragrama está en el ojo del observador. ¡Muchos objetos son útiles solamente en ciertos tipos de misiones y requieren la debida atención y conocimiento para ser usados eficazmente!",
+  "tipDestacados": [],
+  "tienePrime": false,
+  "imagenes": {
+    "perfil": "/warframes-assets/follie/Follie.png",
+    "hero": "",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 485,
+      "prime": "",
+      "barBase": 60,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 225,
+      "prime": "",
+      "barBase": 28,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 325,
+      "prime": "",
+      "barBase": 40,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 175,
+      "prime": "",
+      "barBase": 22,
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Follie",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Follie",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Follie",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Follie",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Follie",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Follie",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Follie",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Follie",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Follie",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Follie",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

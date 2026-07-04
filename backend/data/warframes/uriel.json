@@ -1,0 +1,208 @@
+{
+  "id": "uriel",
+  "nombre": "Uriel",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Control de Multitudes"
+  ],
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Azufre se carga al matar enemigos atacados por los demonios de Uriel, al recoger las runas de Vitelas o al golpear a los enemigos con Demonium.",
+  "tipDestacados": [],
+  "tienePrime": false,
+  "imagenes": {
+    "perfil": "/warframes-assets/uriel/Uriel.png",
+    "hero": "",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 566,
+      "prime": "",
+      "barBase": 70,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 566,
+      "prime": "",
+      "barBase": 70,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 105,
+      "prime": "",
+      "barBase": 13,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 100,
+      "prime": "",
+      "barBase": 12,
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Uriel",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Uriel",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Uriel",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Uriel",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Uriel",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Uriel",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Uriel",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Uriel",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Uriel",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Uriel",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "id": "jade",
+  "nombre": "Jade",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Soporte",
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Sinfonía de la misericordia se puede mantener matando enemigos afectados por los juicios. Utiliza las habilidades de Jade para difundir los juicios por todas partes!",
+  "tipDestacados": [],
+  "tienePrime": false,
+  "imagenes": {
+    "perfil": "/warframes-assets/jade/Jade.png",
+    "hero": "",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 365,
+      "prime": "",
+      "barBase": 45,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 450,
+      "prime": "",
+      "barBase": 56,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 135,
+      "prime": "",
+      "barBase": 17,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 150,
+      "prime": "",
+      "barBase": 19,
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Jade",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Jade",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Jade",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Jade",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Jade",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Jade",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Jade",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Jade",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "dobleAura": true,
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Jade",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Jade",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

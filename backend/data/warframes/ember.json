@@ -1,0 +1,205 @@
+{
+  "id": "ember",
+  "nombre": "Ember",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Daño",
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Explosión de fuego manda a volar a los enemigos si están muy cerca cuando se lanza la habilidad.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/ember/Ember.webp",
+    "hero": "",
+    "prime": "/warframes-assets/ember/EmberPrime.webp"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 270,
+      "barBase": 33,
+      "barPrime": 33
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 365,
+      "barBase": 33,
+      "barPrime": 45
+    },
+    "armadura": {
+      "base": 135,
+      "prime": 160,
+      "barBase": 17,
+      "barPrime": 20
+    },
+    "energia": {
+      "base": 175,
+      "prime": 175,
+      "barBase": 22,
+      "barPrime": 22
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Ember",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Ember",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Ember",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Ember",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Ember",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Ember",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Ember",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Ember",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Ember",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Ember",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

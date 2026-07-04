@@ -1,0 +1,205 @@
+{
+  "id": "gyre",
+  "nombre": "Gyre",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Control de Multitudes",
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Horizonte de bobina derribará a los enemigos si los golpea directamente en el lanzamiento. Dado que el efecto de succión no es inmediato, úsalo para incapacitar a los objetivos cercanos si te encuentras en un apuro.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/gyre/Gyre.png",
+    "hero": "",
+    "prime": "/warframes-assets/gyre/GyrePrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 345,
+      "barBase": 33,
+      "barPrime": 43
+    },
+    "escudo": {
+      "base": 550,
+      "prime": 640,
+      "barBase": 68,
+      "barPrime": 79
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 105,
+      "barBase": 13,
+      "barPrime": 13
+    },
+    "energia": {
+      "base": 190,
+      "prime": 190,
+      "barBase": 23,
+      "barPrime": 23
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Gyre",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Gyre",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Gyre",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Gyre",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Gyre",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Gyre",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Gyre",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Gyre",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Gyre",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Gyre",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

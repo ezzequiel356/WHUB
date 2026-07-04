@@ -1,0 +1,208 @@
+{
+  "id": "zephyr",
+  "nombre": "Zephyr",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Control de Multitudes"
+  ],
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Usa Turbulencia mientras estás flotando arriba de enemigos para atacarlos al protegerte de sus proyectiles.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/zephyr/Zephyr.png",
+    "hero": "",
+    "prime": "/warframes-assets/zephyr/ZephyrPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 455,
+      "prime": 455,
+      "barBase": 56,
+      "barPrime": 56
+    },
+    "escudo": {
+      "base": 455,
+      "prime": 455,
+      "barBase": 56,
+      "barPrime": 56
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 135,
+      "barBase": 13,
+      "barPrime": 17
+    },
+    "energia": {
+      "base": 100,
+      "prime": 175,
+      "barBase": 12,
+      "barPrime": 22
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Zephyr",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Zephyr",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Zephyr",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Zephyr",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Zephyr",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Zephyr",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Zephyr",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Zephyr",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Zephyr",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Zephyr",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

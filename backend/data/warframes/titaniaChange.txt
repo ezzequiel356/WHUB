@@ -1,0 +1,7 @@
+Línea 33. Danio.
+cambiar "Clase" : "wf-dmg--fire" de "Impacto" y "Slash" segun su color.
+
+Línea 52. Habilidades.
+Entrar a Warframe y agregar todos los datos. (Copiar según wisp.json, 4 Keys + Pasiva).
+
+Agregar todo (Debido a falta de imagenes), excepto "Curiosidades" en Línea 124. Ya completado.

@@ -1,0 +1,205 @@
+{
+  "id": "styanax",
+  "nombre": "Styanax",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Daño",
+  "complejidad": 1,
+  "complejidadMax": 5,
+  "tip": "El aumento de la probabilidad crítica de la pasiva de Styanax se basa en los escudos totales, incluidos los sobreescudos. Equipa mods que aumenten la capacidad de los escudos y generen escudos con Punto de reunión u otras habilidades de warframes para obtener el máximo efecto.",
+  "tipDestacados": [],
+  "tienePrime": false,
+  "imagenes": {
+    "perfil": "/warframes-assets/styanax/Styanax.png",
+    "hero": "",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": "",
+      "barBase": 33,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 825,
+      "prime": "",
+      "barBase": 102,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 265,
+      "prime": "",
+      "barBase": 33,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 175,
+      "prime": "",
+      "barBase": 22,
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Styanax",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Styanax",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Styanax",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Styanax",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Styanax",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Styanax",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Styanax",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Styanax",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Styanax",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Styanax",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

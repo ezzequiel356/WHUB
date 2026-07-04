@@ -1,0 +1,208 @@
+{
+  "id": "ash",
+  "nombre": "Ash",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Sigilo",
+    "Daño"
+  ],
+  "complejidad": 1,
+  "complejidadMax": 5,
+  "tip": "Ash puede usar Teletransportación en cualquier enemigo en su campo de visión. Usa este para pasar por ventanas, barreras de láser y más.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/ash/Ash.png",
+    "hero": "",
+    "prime": "/warframes-assets/ash/AshPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 455,
+      "prime": 455,
+      "barBase": 56,
+      "barPrime": 56
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 365,
+      "barBase": 33,
+      "barPrime": 45
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 185,
+      "barBase": 13,
+      "barPrime": 23
+    },
+    "energia": {
+      "base": 100,
+      "prime": 100,
+      "barBase": 12,
+      "barPrime": 12
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Ash",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Ash",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Ash",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Ash",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Ash",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Ash",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Ash",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Ash",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Ash",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Ash",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

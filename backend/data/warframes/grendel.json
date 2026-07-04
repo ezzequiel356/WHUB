@@ -1,0 +1,205 @@
+{
+  "id": "grendel",
+  "nombre": "Grendel",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Supervivencia",
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Festín puede mantener a hasta cinco enemigos en la barriga de Grendel, así que sé selectivo y come a los objetivos de alta prioridad para eliminarlos del campo de batalla.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/grendel/Grendel.png",
+    "hero": "",
+    "prime": "/warframes-assets/grendel/GrendelPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 1095,
+      "prime": 1095,
+      "barBase": 135,
+      "barPrime": 135
+    },
+    "escudo": {
+      "base": 95,
+      "prime": 95,
+      "barBase": 12,
+      "barPrime": 12
+    },
+    "armadura": {
+      "base": 370,
+      "prime": 400,
+      "barBase": 46,
+      "barPrime": 49
+    },
+    "energia": {
+      "base": 175,
+      "prime": 200,
+      "barBase": 22,
+      "barPrime": 25
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Grendel",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Grendel",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Grendel",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Grendel",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Grendel",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Grendel",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Grendel",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Grendel",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Grendel",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Grendel",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

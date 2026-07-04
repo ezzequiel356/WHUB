@@ -1,0 +1,208 @@
+{
+  "id": "hildryn",
+  "nombre": "Hildryn",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Supervivencia",
+    "Daño"
+  ],
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Las habilidades de Hildryn consumen Escudos en vez de Energía! Equípala con mods que incrementen la capacidad y recarga de Escudos para maximizar esa reserva.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/hildryn/Hildryn.png",
+    "hero": "",
+    "prime": "/warframes-assets/hildryn/HildrynPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 180,
+      "prime": 270,
+      "barBase": 22,
+      "barPrime": 33
+    },
+    "escudo": {
+      "base": 1280,
+      "prime": 1380,
+      "barBase": 158,
+      "barPrime": 170
+    },
+    "armadura": {
+      "base": 315,
+      "prime": 315,
+      "barBase": 39,
+      "barPrime": 39
+    },
+    "energia": {
+      "base": 0,
+      "prime": 0,
+      "barBase": 0,
+      "barPrime": 0
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Hildryn",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Hildryn",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Hildryn",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Hildryn",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Hildryn",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Hildryn",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Hildryn",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Hildryn",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Hildryn",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Hildryn",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

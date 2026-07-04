@@ -1,0 +1,209 @@
+{
+  "id": "nidus",
+  "nombre": "Nidus",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Supervivencia",
+    "Control de Multitudes"
+  ],
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Mientras más acumulación de mutación tenga Nidus, mayor será el daño que causen Virulencia y las larvas detonadas!",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/nidus/Nidus.png",
+    "hero": "",
+    "prime": "/warframes-assets/nidus/NidusPrime.webp"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 455,
+      "prime": 550,
+      "barBase": 56,
+      "barPrime": 68
+    },
+    "escudo": {
+      "base": 0,
+      "prime": 0,
+      "barBase": 0,
+      "barPrime": 0
+    },
+    "armadura": {
+      "base": 350,
+      "prime": 425,
+      "barBase": 31,
+      "barPrime": 52
+    },
+    "energia": {
+      "base": 100,
+      "prime": 140,
+      "barBase": 12,
+      "barPrime": 17
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Nidus",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Nidus",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Nidus",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Nidus",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Nidus",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Nidus",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Nidus",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Nidus",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Nidus",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Nidus",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

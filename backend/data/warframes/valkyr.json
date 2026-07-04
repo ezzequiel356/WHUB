@@ -1,0 +1,208 @@
+{
+  "id": "valkyr",
+  "nombre": "Valkyr",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": [
+    "Daño",
+    "Supervivencia"
+  ],
+  "complejidad": 1,
+  "complejidadMax": 5,
+  "tip": "Valkyr es inmune a los aterrizajes pesados, lo que significa que no hay retardo al aterrizar desde grandes alturas.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/valkyr/Valkyr.png",
+    "hero": "",
+    "prime": "/warframes-assets/valkyr/ValkyrPrime.webp"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 650,
+      "prime": 650,
+      "barBase": 80,
+      "barPrime": 80
+    },
+    "escudo": {
+      "base": 135,
+      "prime": 135,
+      "barBase": 17,
+      "barPrime": 17
+    },
+    "armadura": {
+      "base": 855,
+      "prime": 1000,
+      "barBase": 106,
+      "barPrime": 123
+    },
+    "energia": {
+      "base": 100,
+      "prime": 175,
+      "barBase": 12,
+      "barPrime": 22
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Valkyr",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Valkyr",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Valkyr",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Valkyr",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Valkyr",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Valkyr",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Valkyr",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Valkyr",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Valkyr",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Valkyr",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

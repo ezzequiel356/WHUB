@@ -1,0 +1,205 @@
+{
+  "id": "lavos",
+  "nombre": "Lavos",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "Daño",
+  "complejidad": 5,
+  "complejidadMax": 5,
+  "tip": "Todas las habilidades de Lavos pueden causar dos efectos de estado a la vez: el elemento base vinculado a la habilidad en sí, así como cualquier elemento que elijas imbuir.",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/lavos/Lavos.png",
+    "hero": "",
+    "prime": "/warframes-assets/lavos/LavosPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 540,
+      "prime": 600,
+      "barBase": 67,
+      "barPrime": 74
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 310,
+      "barBase": 33,
+      "barPrime": 38
+    },
+    "armadura": {
+      "base": 575,
+      "prime": 575,
+      "barBase": 71,
+      "barPrime": 71
+    },
+    "energia": {
+      "base": 0,
+      "prime": 0,
+      "barBase": 0,
+      "barPrime": 0
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Lavos",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Lavos",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Lavos",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Lavos",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Lavos",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Lavos",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Lavos",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Lavos",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Lavos",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Lavos",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

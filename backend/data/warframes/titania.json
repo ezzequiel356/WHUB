@@ -1,0 +1,232 @@
+{
+  "id": "titania",
+  "nombre": "titania",
+  "epiteto": "Guardiana de los bosques · Hada de Guerra",
+  "subtitulo": "// CODEX ENTRY · TENNO WARFRAME · DESIGNACIÓN: ENTIDAD DE DAÑO DE CONTROL DE MULTITUDES · CLASE: GUERRERA",
+  "rol": [
+    "Daño",
+    "Control de Multitudes"
+  ],
+  "complejidad": 2,
+  "complejidadMax": 5,
+  "tip": "Los enemigos que sobreviven a cualquier mejora otorgada por Tributo de Titania tienen sus ataques debilitados.",
+  "tipDestacados": [
+    "Alas",
+    "Tributo de Titania"
+  ],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/titania/Titania.png",
+    "hero": "",
+    "prime": "/warframes-assets/titania/TitaniaPrime.webp"
+  },
+  "info": {
+    "sexo": "Femenino",
+    "maestria": 0,
+    "lanzamiento": "Aug 19, 2016",
+    "actualizacion": "The Silver Grove",
+    "polaridades": [
+      "Madurai",
+      "Vazarin"
+    ],
+    "polaridadExilus": null,
+    "polaridadAura": "Madurai",
+    "velocidad": 1.25,
+    "playstyle": "Daño y Control de Multitudes",
+    "helminto": "Encantamiento",
+    "progenitor": "Frío"
+  },
+  "danio": [
+    {
+      "tipo": "Calor",
+      "emoji": "🔥",
+      "clase": "wf-dmg--fire"
+    },
+    {
+      "tipo": "Impacto",
+      "emoji": "💥",
+      "clase": "wf-dmg--fire"
+    },
+    {
+      "tipo": "Slash",
+      "emoji": "🗡️",
+      "clase": "wf-dmg--fire"
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 270,
+      "prime": 365,
+      "barBase": 33,
+      "barPrime": 45
+    },
+    "escudo": {
+      "base": 270,
+      "prime": 270,
+      "barBase": 33,
+      "barPrime": 33
+    },
+    "armadura": {
+      "base": 105,
+      "prime": 135,
+      "barBase": 13,
+      "barPrime": 17
+    },
+    "energia": {
+      "base": 175,
+      "prime": 215,
+      "barBase": 22,
+      "barPrime": 27
+    }
+  },
+  "descripcion": [
+    "La apariencia etérea de Titania oculta su formidable poder real. La hechicera inflige gran daño y controla a las multitudes. Obliga a sus oponentes a rendirle homenaje o perecer."
+  ],
+  "lore": "Titania. Mi creación deshonrada. Sentí el batir de sus alas entre mis ramas. Sentí sus heridas mortales, sus quemaduras sangrantes mientras caía bajo mi dosel. Y así fue aquí, en esta arboleda, donde murió para salvarme. A mí, quien más la había odiado.",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": "",
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [
+    "Titania es retratada como la Reina de las Hadas en la obra de William Shakespeare, El sueño de una noche de verano, donde es la esposa de Oberón, el Rey de las Hadas. Cabe destacar que, si bien Oberón existía mucho antes de la obra de Shakespeare, Titania fue creada específicamente para ella.",
+    "Titania comparte nombre con un nodo de misión en Urano, que a su vez corresponde a una de las lunas de Urano en la vida real.",
+    "Titania fue el primer Warframe que requirió telurio para su construcción.",
+    "Titania es el único Warframe que posee dos Armas Exaltadas, mientras que los demás solo tienen una.",
+    "Titania fue el primer Warframe que podía elevarse por los aires mediante una habilidad canalizada, Razorwing, seguida de Hildryn."
+  ],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

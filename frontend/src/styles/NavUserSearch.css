@@ -1,0 +1,116 @@
+.nus-wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 280px;
+  z-index: 300;
+}
+
+.nus-input-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid #252a3a;
+  border-radius: 4px;
+  padding: 0.35rem 0.75rem;
+  transition: border-color 0.2s;
+}
+.nus-input-wrap:focus-within {
+  border-color: #c8a96e;
+}
+
+.nus-icon {
+  color: #4a6880;
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+.nus-input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: #d8e8f0;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.82rem;
+}
+.nus-input::placeholder { color: #4a6880; }
+
+.nus-clear {
+  background: none; border: none; cursor: pointer;
+  color: #4a6880; font-size: 0.75rem;
+  display: flex; align-items: center;
+  padding: 0; transition: color 0.2s; flex-shrink: 0;
+}
+.nus-clear:hover { color: #c8a96e; }
+
+/* Dropdown */
+.nus-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0; right: 0;
+  background: rgba(8,10,14,0.98);
+  border: 1px solid #252a3a;
+  border-radius: 4px;
+  overflow: hidden;
+  backdrop-filter: blur(12px);
+  animation: nus-fadeDown 0.15s ease both;
+}
+@keyframes nus-fadeDown {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.nus-state {
+  padding: 0.75rem 1rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  color: #4a6880;
+  text-align: center;
+}
+
+.nus-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-bottom: 1px solid #1a2535;
+}
+.nus-item:last-child { border-bottom: none; }
+.nus-item:hover { background: rgba(200,169,110,0.07); }
+
+.nus-item__avatar {
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  border: 1px solid #252a3a;
+  background: #13161f;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden; flex-shrink: 0;
+  color: #4a6880; font-size: 0.8rem;
+}
+.nus-item__avatar img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+
+.nus-item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.nus-item__username {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.82rem; font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #c8a96e;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.nus-item__name {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.68rem;
+  color: #4a6880;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}

@@ -1,0 +1,207 @@
+{
+  "id": "excalibur",
+  "nombre": "Excalibur",
+  "epiteto": "",
+  "subtitulo": "",
+  "rol": "",
+  "complejidad": "",
+  "complejidadMax": "",
+  "tip": "",
+  "tipDestacados": [],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/excalibur/Excalibur.png",
+    "hero": "",
+    "prime": "/warframes-assets/excalibur/ExcaliburPrime.png"
+  },
+  "info": {
+    "sexo": "",
+    "maestria": "",
+    "lanzamiento": "",
+    "actualizacion": "",
+    "polaridades": [],
+    "polaridadExilus": "",
+    "polaridadAura": "",
+    "velocidad": "",
+    "playstyle": "",
+    "helminto": "",
+    "progenitor": ""
+  },
+  "danio": [
+    {
+      "tipo": "",
+      "emoji": "",
+      "clase": ""
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": "",
+      "prime": "",
+      "barBase": "",
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": "",
+      "prime": "",
+      "barBase": "",
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": "",
+      "prime": "",
+      "barBase": "",
+      "barPrime": ""
+    },
+    "energia": {
+      "base": "",
+      "prime": "",
+      "barBase": "",
+      "barPrime": ""
+    }
+  },
+  "descripcion": [],
+  "lore": "",
+  "habilidades": [
+    {
+      "key": "",
+      "nombre": "Excalibur",
+      "imagen": "",
+      "video": "",
+      "tieneAugment": "",
+      "stats": [
+        {
+          "label": "",
+          "valor": "",
+          "clase": "",
+          "icono": ""
+        }
+      ],
+      "augment": "",
+      "descripcion": ""
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "Excalibur",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "Excalibur",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "exclusivo": true,
+    "exclusivoTexto": "Excalibur Prime fue una recompensa exclusiva para los Fundadores del juego durante 2013. Al cierre del programa Founders, esta variante dejó de estar disponible de forma permanente y actualmente no puede obtenerse por ningún medio.",
+    "orokinReactor": "",
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Excalibur",
+          "imagen": "",
+          "creditos": "",
+          "materiales": [
+            {
+              "nombre": "Excalibur",
+              "imagen": "",
+              "cantidad": "",
+              "fuente": ""
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Excalibur",
+          "imagen": "",
+          "reliquias": [
+            {
+              "nombre": "Excalibur",
+              "tier": "",
+              "imagen": "",
+              "rareza": "",
+              "vaulted": "",
+              "chances": {
+                "intact": "",
+                "exceptional": "",
+                "flawless": "",
+                "radiant": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Excalibur",
+        "imagen": "",
+        "fuente": "",
+        "probabilidad": "",
+        "esperado": ""
+      }
+    ]
+  },
+  "curiosidades": [],
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "Excalibur",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Excalibur",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

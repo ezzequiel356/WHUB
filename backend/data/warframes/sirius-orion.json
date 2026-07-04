@@ -1,0 +1,494 @@
+{
+  "id": "sirius-orion",
+  "nombre": "Sirius & Orion",
+  "epiteto": "Dúo Estelar",
+  "subtitulo": "// CODEX ENTRY · TENNO WARFRAME · DESIGNACIÓN: ENTIDAD CELESTIAL GEMELA CLASE SIRIUS & ORION",
+  "rol": "Daño",
+  "complejidad": 5,
+  "complejidadMax": 5,
+  "tip": "El que no controles seguirá luchando y lanzando habilidades de forma independiente.",
+  "tienePrime": false,
+  "dualWarframe": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/sirius-orion/SiriusOrion.png",
+    "hero": "/warframes-assets/sirius-orion/SiriusOrionHero.png",
+    "prime": ""
+  },
+  "info": {
+    "sexo": "Masculino",
+    "maestria": "0",
+    "lanzamiento": "Jun 17 2026",
+    "actualizacion": "43.0",
+    "polaridadExilus": "-",
+    "velocidad": 1.15,
+    "progenitor": "Impacto",
+    "progenitorEmoji": "🔨"
+  },
+  "descripcion": [
+    "Empuña el poder de las estrellas en una batalla constante por la supremacía. Los hermanos Sirius y Orion, que se enfrentan en duelo, ocupan el espacio de un único Warframe, luchando por posicionarse para desatar la destrucción cósmica sobre sus enemigos."
+  ],
+  "lore": "Sorren (ahora conocido como Stalker) y Jade engendraron un hijo, lo cual era considerado tabú por los Orokin. Durante el embarazo de Jade, Ballas los transformó a la fuerza en Warframes. A pesar de esto, Jade logró conservar la cordura y dedicó toda su vida a dar a luz. Finalmente, Jade consiguió tener un hijo, pero falleció en el parto. Stalker protegió al recién nacido de Xeto y sus Corpus.\n\nRecordando su promesa de proteger a su familia, Stalker nombró a su hijo Sirius u Orion.",
+  "habilidadesCompartidas": [
+    {
+      "key": 4,
+      "nombre": "Celestial Clash",
+      "imagen": "/warframes-assets/sirius-orion/abilities/SiriusOrionUltimate.png",
+      "imagenPopup": "",
+      "video": "/warframes-assets/sirius-orion/abilities/celestial-clash.webm",
+      "tieneAugment": false,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "100",
+          "icono": "atom"
+        },
+        {
+          "label": "Daño",
+          "valor": "10,000",
+          "icono": "blast"
+        },
+        {
+          "label": "Radio",
+          "valor": "26m"
+        },
+        {
+          "label": "Critical Chance / Choques",
+          "valor": "50%"
+        }
+      ],
+      "augment": null,
+      "descripcion": "Sirius y Orion se enfrentan en un duelo cósmico. Cada ataque consume una estrella de constelación para infligir un daño Blast colateral colosal. Combina el color de la estrella con el color del Warframe para aumentar el Critical Chance.\n{lmb} Ataque de Sirius.\n{rmb} Ataque de Orion.\nGenera estrellas de constelación al usar habilidades. No se pueden añadir más de dos estrellas del mismo color seguidas."
+    },
+    {
+      "key": "pasiva",
+      "nombre": "Pasiva",
+      "imagen": "/warframes-assets/shared/abilities/passive.png",
+      "imagenPopup": "",
+      "video": null,
+      "tieneAugment": false,
+      "stats": [],
+      "augment": null,
+      "descripcion": "Cambiar entre ellos garantiza 45% eficiencia de la habilidad durante los siguientes 2 casts.\nCuando la energía es menor a 50, Sirius & Orion se robarán energía entre ellos."
+    }
+  ],
+  "sirius": {
+    "imagenes": {
+      "perfil": "/warframes-assets/sirius-orion/Sirius.png"
+    },
+    "danio": [
+      {
+        "tipo": "Calor",
+        "emoji": "🔥",
+        "clase": "heat"
+      }
+    ],
+    "info": {
+      "polaridades": [
+        "Any",
+        "Naramon",
+        "Vazarin"
+      ],
+      "helminto": "Jade Stars",
+      "playstyle": "Soporte",
+      "polaridadAura": "Vazarin"
+    },
+    "stats": {
+      "vida": {
+        "base": 475,
+        "prime": "",
+        "barBase": 59,
+        "barPrime": ""
+      },
+      "escudo": {
+        "base": 355,
+        "prime": "",
+        "barBase": 44,
+        "barPrime": ""
+      },
+      "armadura": {
+        "base": 160,
+        "prime": "",
+        "barBase": 20,
+        "barPrime": ""
+      },
+      "energia": {
+        "base": 200,
+        "prime": "",
+        "barBase": 25,
+        "barPrime": ""
+      }
+    },
+    "habilidades": [
+      {
+        "key": 1,
+        "nombre": "Coronal Ejection",
+        "imagen": "/warframes-assets/sirius-orion/abilities/SiriusCoronalEjection.png",
+        "imagenPopup": "",
+        "video": "/warframes-assets/sirius-orion/abilities/coronal-ejection.webm",
+        "tieneAugment": false,
+        "stats": [
+          {
+            "label": "Costo de energía",
+            "valor": "15",
+            "icono": "atom"
+          },
+          {
+            "label": "Daño",
+            "valor": "1,500",
+            "icono": "fire"
+          },
+          {
+            "label": "Radio",
+            "valor": "5m"
+          },
+          {
+            "label": "Status Chance",
+            "valor": "100%"
+          }
+        ],
+        "augment": null,
+        "descripcion": "Lanza la guadaña imbuida de Luz de Jade de Sirius, infligiendo daño Heat mientras recoge cualquier objeto a su paso.\n(MANTENER) Cambia a Orion y usa Gravitic Slash."
+      },
+      {
+        "key": 2,
+        "nombre": "Jade Stars",
+        "imagen": "/warframes-assets/sirius-orion/abilities/SiriusStarEater.png",
+        "imagenPopup": "",
+        "video": "/warframes-assets/sirius-orion/abilities/jade-stars.webm",
+        "tieneAugment": false,
+        "stats": [
+          {
+            "label": "Costo de energía",
+            "valor": "50",
+            "icono": "atom"
+          },
+          {
+            "label": "Daño",
+            "valor": "500",
+            "icono": "fire"
+          },
+          {
+            "label": "Duración",
+            "valor": "35s"
+          },
+          {
+            "label": "Radio",
+            "valor": "4m"
+          },
+          {
+            "label": "Status Chance",
+            "valor": "30%"
+          }
+        ],
+        "augment": null,
+        "descripcion": "Sirius conjura partículas de Luz de Jade que se regeneran lentamente con el tiempo. Al atacar a los enemigos, estas partículas se lanzan, infligiendo daño Heat y Status Effect.\n(MANTENER) Cambia a Orion y usa Astral Shell."
+      },
+      {
+        "key": 3,
+        "nombre": "Light's Sanctuary",
+        "imagen": "/warframes-assets/sirius-orion/abilities/SiriusAurora.png",
+        "imagenPopup": "",
+        "video": "/warframes-assets/sirius-orion/abilities/lights-sanctuary.webm",
+        "tieneAugment": false,
+        "stats": [
+          {
+            "label": "Costo de energía",
+            "valor": "50",
+            "icono": "atom"
+          },
+          {
+            "label": "Duración",
+            "valor": "30s"
+          },
+          {
+            "label": "Radio",
+            "valor": "5 - 10m"
+          },
+          {
+            "label": "Tasa de curación",
+            "valor": "25 - 55",
+            "icono": "heart-pulse"
+          },
+          {
+            "label": "Reducción de daño",
+            "valor": "15 - 45%"
+          },
+          {
+            "label": "Recarga de reutilización",
+            "valor": "60s"
+          }
+        ],
+        "augment": null,
+        "descripcion": "Sirius crea un pozo de luz que sana y revive aliados, mientras reduce el daño entrante. El pozo lentamente crece en tamaño y poder.\n(MANTENER) Cambia a Orion y usa Event Horizon."
+      }
+    ]
+  },
+  "orion": {
+    "imagenes": {
+      "perfil": "/warframes-assets/sirius-orion/Orion.png"
+    },
+    "danio": [
+      {
+        "tipo": "Slash",
+        "emoji": "🩸",
+        "clase": "slash"
+      }
+    ],
+    "info": {
+      "polaridades": [
+        "Any",
+        "Naramon",
+        "Madurai"
+      ],
+      "helminto": "Astral Shell",
+      "playstyle": "Daño",
+      "polaridadAura": "Naramon"
+    },
+    "stats": {
+      "vida": {
+        "base": 350,
+        "prime": "",
+        "barBase": 43,
+        "barPrime": ""
+      },
+      "escudo": {
+        "base": 270,
+        "prime": "",
+        "barBase": 33,
+        "barPrime": ""
+      },
+      "armadura": {
+        "base": 300,
+        "prime": "",
+        "barBase": 37,
+        "barPrime": ""
+      },
+      "energia": {
+        "base": 200,
+        "prime": "",
+        "barBase": 25,
+        "barPrime": ""
+      }
+    },
+    "habilidades": [
+      {
+        "key": 1,
+        "nombre": "Gravitic Slash",
+        "imagen": "/warframes-assets/sirius-orion/abilities/OrionGraviticSlash.png",
+        "imagenPopup": "",
+        "video": "/warframes-assets/sirius-orion/abilities/gravitic-slash.webm",
+        "tieneAugment": false,
+        "stats": [
+          {
+            "label": "Costo de energía",
+            "valor": "15",
+            "icono": "atom"
+          },
+          {
+            "label": "Daño",
+            "valor": "2,000",
+            "icono": "slash"
+          },
+          {
+            "label": "Radio",
+            "valor": "8m"
+          },
+          {
+            "label": "Ángulo",
+            "valor": "67.5°"
+          },
+          {
+            "label": "Reducción de defensa",
+            "valor": "50%"
+          },
+          {
+            "label": "Status Chance",
+            "valor": "100%"
+          }
+        ],
+        "augment": null,
+        "descripcion": "Repele enemigos con la guadaña siniestra de Orion, infligiendo daño Slash y Status Effect mientras reduce escudo y armadura.\n(MANTENER) Cambia a Sirius y usa Coronal Ejection."
+      },
+      {
+        "key": 2,
+        "nombre": "Astral Shell",
+        "imagen": "/warframes-assets/sirius-orion/abilities/OrionDarkestNight.png",
+        "imagenPopup": "",
+        "video": "/warframes-assets/sirius-orion/abilities/astral-shell.webm",
+        "tieneAugment": false,
+        "stats": [
+          {
+            "label": "Costo de energía",
+            "valor": "50",
+            "icono": "atom"
+          },
+          {
+            "label": "Daño",
+            "valor": "200",
+            "icono": "burst"
+          },
+          {
+            "label": "Duración",
+            "valor": "35s"
+          },
+          {
+            "label": "Radio",
+            "valor": "5m"
+          },
+          {
+            "label": "Duración del clon",
+            "valor": "5s"
+          },
+          {
+            "label": "Recarga del clon",
+            "valor": "5s"
+          }
+        ],
+        "augment": null,
+        "descripcion": "Envuelve a Orion en un caparazón astral. Al recibir daño, el caparazón se convierte en un señuelo que atrae disparos hasta ser destruído.\n(MANTENER) Cambia a Sirius y usa Jade Stars."
+      },
+      {
+        "key": 3,
+        "nombre": "Event Horizon",
+        "imagen": "/warframes-assets/sirius-orion/abilities/OrionVortex.png",
+        "imagenPopup": "",
+        "video": "/warframes-assets/sirius-orion/abilities/event-horizon.webm",
+        "tieneAugment": false,
+        "stats": [
+          {
+            "label": "Costo de energía",
+            "valor": "50",
+            "icono": "atom"
+          },
+          {
+            "label": "Duración",
+            "valor": "18s"
+          },
+          {
+            "label": "Daño",
+            "valor": "750",
+            "icono": "fire"
+          }
+        ],
+        "augment": null,
+        "descripcion": "Orion forma un agujero negro a la deriva, atrapando enemigos dentro de su gravedad. Golpear el agujero negro con Gravitic Slash o Coronal Ejection extenderá su duración y cambiará su trayectoria: Gravitic Slash lo dirigirá lejos de Orion, y Coronal Ejection lo atraerá hacia Sirius.\n(MANTENER) Cambia a Sirius y usa Light's Sanctuary."
+      }
+    ]
+  },
+  "danio": [
+    {
+      "tipo": "Calor",
+      "emoji": "🔥",
+      "clase": "heat"
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 475,
+      "prime": "",
+      "barBase": 59,
+      "barPrime": ""
+    },
+    "escudo": {
+      "base": 355,
+      "prime": "",
+      "barBase": 44,
+      "barPrime": ""
+    },
+    "armadura": {
+      "base": 160,
+      "prime": "",
+      "barBase": 20,
+      "barPrime": ""
+    },
+    "energia": {
+      "base": 200,
+      "prime": "",
+      "barBase": 25,
+      "barPrime": ""
+    }
+  },
+  "curiosidades": [
+    "Sirius & Orion son, en conjunto, el Warframe número 65 que se lanza.",
+    "Orion & Sirius son dos personajes de la mitología griega que representan a un cazador y a su fiel compañero.",
+    "Sirius & Orion son los segundos Warframes, después de Sevagoth y la Sombra de Sevagoth, que constan de dos Warframes modificables por separado con habilidades distintas entre sí.",
+    "Sirius & Orion are currently the only known Warframes to have never been human, having been born as Warframes due to Jade having been converted while pregnant."
+  ],
+  "crafting": {
+    "tiempoPorParte": "",
+    "tiempoTotal": "",
+    "creditosTotal": "",
+    "costoRush": "",
+    "partes": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "creditos": "",
+        "materiales": [
+          {
+            "nombre": "",
+            "imagen": "",
+            "cantidad": "",
+            "fuente": ""
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": false,
+    "wfmSlugs": [],
+    "crafting": {
+      "partes": [],
+      "adquisicion": []
+    }
+  },
+  "adquisicion": {
+    "nonPrime": []
+  },
+  "build": {
+    "votos": "",
+    "label": "",
+    "formas": "",
+    "itemRank": "",
+    "itemRankMax": "",
+    "itemRankActual": "",
+    "orokinReactor": "",
+    "stats": {
+      "duracion": {
+        "valor": "",
+        "positivo": ""
+      },
+      "eficiencia": {
+        "valor": "",
+        "positivo": ""
+      },
+      "rango": {
+        "valor": "",
+        "positivo": ""
+      },
+      "fuerza": {
+        "valor": "",
+        "positivo": ""
+      }
+    },
+    "mods": [
+      {
+        "tipo": "",
+        "nombre": "",
+        "imagen": "",
+        "tooltip": "",
+        "polaridad": "",
+        "polaridadImg": "",
+        "forma": ""
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "",
+        "imagen": "",
+        "descripcion": ""
+      }
+    ]
+  }
+}

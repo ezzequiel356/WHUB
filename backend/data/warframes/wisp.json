@@ -1,0 +1,1007 @@
+{
+  "id": "wisp",
+  "nombre": "Wisp",
+  "epiteto": "Entidad Solar · Soporte y Control",
+  "subtitulo": "// CODEX ENTRY · TENNO WARFRAME · DESIGNACIÓN: ENTIDAD DE SOPORTE SOLAR CLASE WISP",
+  "rol": "Soporte",
+  "complejidad": 3,
+  "complejidadMax": 5,
+  "tip": "Solo una de cada Mota es capaz de sujetarse a Wisp y a sus aliados en cualquier momento.",
+  "tipDestacados": [
+    "Mota",
+    "Wisp"
+  ],
+  "tienePrime": true,
+  "imagenes": {
+    "perfil": "/warframes-assets/wisp/Wisp.webp",
+    "hero": "/warframes-assets/wisp/wispprime2.png",
+    "prime": "/warframes-assets/wisp/WispPrime.png"
+  },
+  "info": {
+    "sexo": "Femenino",
+    "maestria": 0,
+    "lanzamiento": "May 22, 2019",
+    "actualizacion": "Update 25.0",
+    "polaridades": [
+      "Madurai",
+      "Vazarin"
+    ],
+    "polaridadExilus": null,
+    "polaridadAura": "Naramon",
+    "velocidad": 1.2,
+    "playstyle": "Soporte",
+    "helminto": "Breach Surge",
+    "progenitor": "Calor",
+    "progenitorEmoji": "🔥"
+  },
+  "danio": [
+    {
+      "tipo": "Calor",
+      "emoji": "🔥",
+      "clase": "wf-dmg--fire"
+    },
+    {
+      "tipo": "Electricidad",
+      "emoji": "⚡",
+      "clase": "wf-dmg--elec"
+    },
+    {
+      "tipo": "Radiación",
+      "emoji": "☢",
+      "clase": "wf-dmg--rad"
+    }
+  ],
+  "stats": {
+    "vida": {
+      "base": 370,
+      "prime": 370,
+      "barBase": 46,
+      "barPrime": 46
+    },
+    "escudo": {
+      "base": 280,
+      "prime": 370,
+      "barBase": 35,
+      "barPrime": 46
+    },
+    "armadura": {
+      "base": 185,
+      "prime": 210,
+      "barBase": 23,
+      "barPrime": 26
+    },
+    "energia": {
+      "base": 300,
+      "prime": 300,
+      "barBase": 37,
+      "barPrime": 37
+    }
+  },
+  "descripcion": [
+    "Wisp es un Warframe de soporte y control altamente versátil, especializada en potenciar aliados mientras debilita y desorienta a sus enemigos mediante energía etérea y luz solar. Con una presencia casi fantasmal, Wisp flota constantemente sobre el suelo, lo que refuerza su estilo evasivo y su capacidad para evitar daño directo, desapareciendo del alcance enemigo cuando se mantiene en el aire.",
+    "Sus habilidades giran en torno a la mejora continua del equipo mediante sus Reservoirs, además de control de masas a través de cegado y propagación de daño. Wisp combina daño de energía radiante con efectos de estado como Electricidad, permitiéndole ser efectiva tanto contra grupos numerosos como en situaciones de presión constante, mientras mantiene a su escuadrón con ventajas sostenidas."
+  ],
+  "lore": "Wisp flota entre lo material y lo etéreo. Accede a múltiples dimensiones para apoyar a sus aliados. Su semblante es misterioso y enigmático.",
+  "habilidades": [
+    {
+      "key": "1",
+      "nombre": "Reservoirs",
+      "imagen": "/warframes-assets/wisp/abilities/WispReservoir.png",
+      "video": "/warframes-assets/wisp/abilities/reservoirs.webm",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "25",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Radio",
+          "valor": "5m",
+          "clase": "green"
+        },
+        {
+          "label": "Duración del Buff",
+          "valor": "30s",
+          "clase": "green"
+        },
+        {
+          "label": "MOTA DE VITALIDAD",
+          "valor": null,
+          "clase": "subtitulo"
+        },
+        {
+          "label": "Duración del Buff",
+          "valor": "30s",
+          "clase": "green"
+        },
+        {
+          "label": "Curación por segundo",
+          "valor": "45",
+          "clase": "green"
+        },
+        {
+          "label": "MOTA DE RAPIDEZ",
+          "valor": null,
+          "clase": "subtitulo"
+        },
+        {
+          "label": "Multiplicador de velocidad",
+          "valor": "30%",
+          "clase": "green"
+        },
+        {
+          "label": "Cadencia de disparo",
+          "valor": "45%",
+          "clase": "green"
+        },
+        {
+          "label": "MOTA DE DESCARGA",
+          "valor": null,
+          "clase": "subtitulo"
+        },
+        {
+          "label": "Chance de estado",
+          "valor": "100%",
+          "clase": "green",
+          "icono": "bolt"
+        },
+        {
+          "label": "Rango",
+          "valor": "15m",
+          "clase": "green"
+        },
+        {
+          "label": "Objetivos",
+          "valor": "5",
+          "clase": "green"
+        }
+      ],
+      "augment": "Fused Reservoir: Invoca los tres Reservoirs a la vez. Cuesta 200% más energía.",
+      "descripcion": "Elige e invoca un Reservorio lleno de motas que se adhieren y ayudan a Wisp y a sus aliados. La Mota de Rapidez aumenta la velocidad de movimiento y de ataque. La Mota de Vitalidad incrementa la salud máxima y cura con el tiempo. La Mota de Descarga aturde a los enemigos cercanos."
+    },
+    {
+      "key": "2",
+      "nombre": "Wil-O-Wisp",
+      "imagen": "/warframes-assets/wisp/abilities/WispLight.png",
+      "video": "/warframes-assets/wisp/abilities/wil-o-wisp.webm",
+      "tieneAugment": false,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "35",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Duración",
+          "valor": "4s",
+          "clase": "green"
+        },
+        {
+          "label": "Invulnerabilidad",
+          "valor": "3s",
+          "clase": "green"
+        }
+      ],
+      "augment": null,
+      "descripcion": "Lanza una proyección de Wisp que distrae a los enemigos; reactiva para teletransportarte a su posición o mantén para enviarla más lejos y trasladarte al soltar."
+    },
+    {
+      "key": "3",
+      "nombre": "Breach Surge",
+      "imagen": "/warframes-assets/wisp/abilities/WispHarnessTheLight.png",
+      "video": "/warframes-assets/wisp/abilities/breach-surge.webm",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "50",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Radio",
+          "valor": "18m",
+          "clase": "green"
+        },
+        {
+          "label": "Duración de cegado",
+          "valor": "16s",
+          "clase": "green"
+        },
+        {
+          "label": "Multiplicador de daño",
+          "valor": "3x",
+          "clase": "green"
+        },
+        {
+          "label": "Chance de estado",
+          "valor": "30%",
+          "clase": "green"
+        }
+      ],
+      "augment": "Critical Surge: Teletransportarse a un Reservoir cuesta un 50% de Energía y otorga un 10% de Critical Chance a las armas primarias por cada metro recorrido durante 9s, hasta un máximo de 250%.",
+      "descripcion": "Abre una brecha dimensional que abruma a los enemigos cercanos y hace que liberen chispas de Surge agresivas al recibir daño. Wisp también puede apuntar a un Reservoir para teletransportarse a él y duplicar el alcance del Surge."
+    },
+    {
+      "key": "4",
+      "nombre": "Sol Gate",
+      "imagen": "/warframes-assets/wisp/abilities/WispSolGate.png",
+      "video": "/warframes-assets/wisp/abilities/sol-gate.webm",
+      "tieneAugment": true,
+      "stats": [
+        {
+          "label": "Costo de energía",
+          "valor": "25",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Energía por segundo",
+          "valor": "12",
+          "clase": "teal",
+          "icono": "atom"
+        },
+        {
+          "label": "Daño por segundo",
+          "valor": "2,250",
+          "clase": "green",
+          "iconos": [
+            "fire-flame-curved",
+            "radiation"
+          ]
+        },
+        {
+          "label": "Rango",
+          "valor": "40m",
+          "clase": "green"
+        }
+      ],
+      "augment": "Cataclysmic Gate: Wisp y 2 imágenes espectrales lanzan una única descarga de Sol Gate, dejando un área que inflige 500 de daño de Calor por segundo, con efectos de estado de Calor y Radiación garantizados durante 10s.",
+      "descripcion": "Abre un portal al sol para irradiar a los enemigos con un devastador rayo de plasma solar puro. Mantén el disparo para duplicar el daño a costa de un mayor consumo de energía. Durante el ataque, los enemigos afectados por Sol Gate se vuelven cada vez más vulnerables a este."
+    },
+    {
+      "key": "pasiva",
+      "nombre": "Pasiva",
+      "imagen": "/warframes-assets/shared/abilities/passive.png",
+      "video": null,
+      "tieneAugment": false,
+      "stats": [],
+      "augment": null,
+      "descripcion": "Fluyendo entre dimensiones, Wisp se vuelve invisible para los enemigos mientras está en el aire."
+    }
+  ],
+  "crafting": {
+    "tiempoPorParte": "12 horas",
+    "tiempoTotal": "72 Horas",
+    "creditosTotal": 70000,
+    "costoRush": 50,
+    "partes": [
+      {
+        "nombre": "Plano de las Neuropticas",
+        "imagen": "/warframes-assets/shared/parts/Neuroptics.webp",
+        "creditos": 15000,
+        "materiales": [
+          {
+            "nombre": "Hexenon",
+            "imagen": "/warframes-assets/shared/materials/Hexenon.webp",
+            "cantidad": 300,
+            "fuente": "Júpiter"
+          },
+          {
+            "nombre": "Telurio",
+            "imagen": "/warframes-assets/shared/materials/Telurio.webp",
+            "cantidad": 2,
+            "fuente": "Urano"
+          },
+          {
+            "nombre": "Plastidos",
+            "imagen": "/warframes-assets/shared/materials/plastidos.webp",
+            "cantidad": 950,
+            "fuente": "Saturno, Urano, Fobos, Plutón, Eris"
+          },
+          {
+            "nombre": "Polímeros",
+            "imagen": "/warframes-assets/shared/materials/PolymerBundle.webp",
+            "cantidad": 2200,
+            "fuente": "Mercurio, Venus, Urano"
+          }
+        ]
+      },
+      {
+        "nombre": "Plano del Chasis",
+        "imagen": "/warframes-assets/shared/parts/Chassis.webp",
+        "creditos": 15000,
+        "materiales": [
+          {
+            "nombre": "Hexenon",
+            "imagen": "/warframes-assets/shared/materials/Hexenon.webp",
+            "cantidad": 500,
+            "fuente": "Júpiter"
+          },
+          {
+            "nombre": "Cristal de Argon",
+            "imagen": "/warframes-assets/shared/materials/Cristal_de_argon.webp",
+            "cantidad": 1,
+            "fuente": "Vacío"
+          },
+          {
+            "nombre": "Oxium",
+            "imagen": "/warframes-assets/shared/materials/Oxium.webp",
+            "cantidad": 700,
+            "fuente": "Europa, Saturno, Neptuno, Venus, Júpiter"
+          },
+          {
+            "nombre": "Placa de Aleación",
+            "imagen": "/warframes-assets/shared/materials/AlloyPlate.webp",
+            "cantidad": 2750,
+            "fuente": "Venus, Júpiter, Ceres, Sedna, Plutón"
+          }
+        ]
+      },
+      {
+        "nombre": "Plano de los Sistemas",
+        "imagen": "/warframes-assets/shared/parts/Systems.webp",
+        "creditos": 15000,
+        "materiales": [
+          {
+            "nombre": "Hexenon",
+            "imagen": "/warframes-assets/shared/materials/Hexenon.webp",
+            "cantidad": 400,
+            "fuente": "Júpiter"
+          },
+          {
+            "nombre": "Extracto de Nitain",
+            "imagen": "/warframes-assets/shared/materials/Extracto_de_nitain.webp",
+            "cantidad": 2,
+            "fuente": "Onda Nocturna"
+          },
+          {
+            "nombre": "Rubedo",
+            "imagen": "/warframes-assets/shared/materials/Rubedo.webp",
+            "cantidad": 950,
+            "fuente": "Fobos, Tierra, Plutón, Europa, Sedna"
+          },
+          {
+            "nombre": "Restos",
+            "imagen": "/warframes-assets/shared/materials/Salvage.webp",
+            "cantidad": 10000,
+            "fuente": "Marte, Júpiter, Sedna"
+          }
+        ]
+      }
+    ]
+  },
+  "prime": {
+    "tienePrime": true,
+    "orokinReactor": true,
+    "wfmSlugs": [
+      "wisp_prime_blueprint",
+      "wisp_prime_chassis_blueprint",
+      "wisp_prime_neuroptics_blueprint",
+      "wisp_prime_systems_blueprint"
+    ],
+    "crafting": {
+      "partes": [
+        {
+          "nombre": "Neuroptics Blueprint (Prime)",
+          "imagen": "/warframes-assets/shared/parts/neuropticsprime.png",
+          "creditos": 15000,
+          "materiales": [
+            {
+              "nombre": "Neurodos",
+              "imagen": "/warframes-assets/shared/materials/Neurodos.webp",
+              "cantidad": 10,
+              "fuente": "Tierra, Eris, Deimos"
+            },
+            {
+              "nombre": "Cristal de Argón",
+              "imagen": "/warframes-assets/shared/materials/Cristal_de_argon.webp",
+              "cantidad": 2,
+              "fuente": "Vacío"
+            },
+            {
+              "nombre": "Rubedo",
+              "imagen": "/warframes-assets/shared/materials/Rubedo.webp",
+              "cantidad": 1500,
+              "fuente": "Fobos, Tierra, Plutón, Europa, Sedna"
+            },
+            {
+              "nombre": "Ferrita",
+              "imagen": "/warframes-assets/shared/materials/Ferrita.webp",
+              "cantidad": 6750,
+              "fuente": "Mercurio, Tierra, Neptuno, Vacío"
+            }
+          ]
+        },
+        {
+          "nombre": "Chassis Blueprint (Prime)",
+          "imagen": "/warframes-assets/shared/parts/chassisprime.webp",
+          "creditos": 15000,
+          "materiales": [
+            {
+              "nombre": "Galio",
+              "imagen": "/warframes-assets/shared/materials/Galio.webp",
+              "cantidad": 7,
+              "fuente": "Marte, Urano"
+            },
+            {
+              "nombre": "Polímeros",
+              "imagen": "/warframes-assets/shared/materials/PolymerBundle.webp",
+              "cantidad": 2150,
+              "fuente": "Mercurio, Venus, Urano"
+            },
+            {
+              "nombre": "Oxium",
+              "imagen": "/warframes-assets/shared/materials/Oxium.webp",
+              "cantidad": 250,
+              "fuente": "Europa, Saturno, Neptuno, Venus, Júpiter"
+            },
+            {
+              "nombre": "Nanoesporas",
+              "imagen": "/warframes-assets/shared/materials/Nanoesporas.webp",
+              "cantidad": 8750,
+              "fuente": "Saturno, Neptuno, Eris, Derrelicto Orokin"
+            }
+          ]
+        },
+        {
+          "nombre": "Systems Blueprint (Prime)",
+          "imagen": "/warframes-assets/shared/parts/systemsprime.webp",
+          "creditos": 15000,
+          "materiales": [
+            {
+              "nombre": "Extracto de Nitain",
+              "imagen": "/warframes-assets/shared/materials/Extracto_de_nitain.webp",
+              "cantidad": 2,
+              "fuente": "Onda Nocturna"
+            },
+            {
+              "nombre": "Telurio",
+              "imagen": "/warframes-assets/shared/materials/Telurio.webp",
+              "cantidad": 2,
+              "fuente": "Urano"
+            },
+            {
+              "nombre": "Circuitos",
+              "imagen": "/warframes-assets/shared/materials/Circuitos.webp",
+              "cantidad": 1350,
+              "fuente": "Venus, Ceres"
+            },
+            {
+              "nombre": "Restos",
+              "imagen": "/warframes-assets/shared/materials/Salvage.webp",
+              "cantidad": 4375,
+              "fuente": "Marte, Júpiter, Sedna"
+            }
+          ]
+        }
+      ],
+      "adquisicion": [
+        {
+          "nombre": "Wisp Prime Blueprint",
+          "imagen": "/warframes-assets/wisp/WispPrime.png",
+          "reliquias": [
+            {
+              "nombre": "Meso W3 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Meso W4 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Neo W2 Relic",
+              "tier": "Neo",
+              "imagen": "/warframes-assets/shared/relics/Neo.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Axi W3 Relic",
+              "tier": "Axi",
+              "imagen": "/warframes-assets/shared/relics/Axi.webp",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Axi W4 Relic",
+              "tier": "Axi",
+              "imagen": "/warframes-assets/shared/relics/Axi.webp",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "Wisp Prime Chassis",
+          "imagen": "/warframes-assets/shared/parts/chassisprime.webp",
+          "reliquias": [
+            {
+              "nombre": "Lith W3 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Lith W4 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Meso W5 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            },
+            {
+              "nombre": "Neo H4 Relic",
+              "tier": "Neo",
+              "imagen": "/warframes-assets/shared/relics/Neo.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Neo W1 Relic",
+              "tier": "Neo",
+              "imagen": "/warframes-assets/shared/relics/Neo.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "2%",
+                "exceptional": "4%",
+                "flawless": "6%",
+                "radiant": "10%"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "Wisp Prime Neuroptics",
+          "imagen": "/warframes-assets/shared/parts/neuropticsprime.png",
+          "reliquias": [
+            {
+              "nombre": "Lith A7 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Lith G13 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Lith L6 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Meso K6 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Neo K6 Relic",
+              "tier": "Neo",
+              "imagen": "/warframes-assets/shared/relics/Neo.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Neo A13 Relic",
+              "tier": "Neo",
+              "imagen": "/warframes-assets/shared/relics/Neo.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Axi F2 Relic",
+              "tier": "Axi",
+              "imagen": "/warframes-assets/shared/relics/Axi.webp",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "Wisp Prime Systems",
+          "imagen": "/warframes-assets/shared/parts/systemsprime.webp",
+          "reliquias": [
+            {
+              "nombre": "Lith N15 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Lith Q1 Relic",
+              "tier": "Lith",
+              "imagen": "/warframes-assets/shared/relics/Lith.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Meso G7 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Meso G10 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Meso T7 Relic",
+              "tier": "Meso",
+              "imagen": "/warframes-assets/shared/relics/Meso.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Neo D7 Relic",
+              "tier": "Neo",
+              "imagen": "/warframes-assets/shared/relics/Neo.png",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Axi A17 Relic",
+              "tier": "Axi",
+              "imagen": "/warframes-assets/shared/relics/Axi.webp",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            },
+            {
+              "nombre": "Axi B7 Relic",
+              "tier": "Axi",
+              "imagen": "/warframes-assets/shared/relics/Axi.webp",
+              "rareza": "Uncommon",
+              "vaulted": true,
+              "chances": {
+                "intact": "11%",
+                "exceptional": "13%",
+                "flawless": "17%",
+                "radiant": "20%"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "adquisicion": {
+    "nonPrime": [
+      {
+        "nombre": "Plano de Wisp",
+        "imagen": "/warframes-assets/wisp/Wisp.webp",
+        "fuente": "Ropalolyst Assassination",
+        "probabilidad": "22.56%",
+        "esperado": "~4 Asesinatos"
+      },
+      {
+        "nombre": "Plano del Chasis",
+        "imagen": "/warframes-assets/shared/parts/Chassis.webp",
+        "fuente": "Ropalolyst Assassination",
+        "probabilidad": "25.81%",
+        "esperado": "~3 Asesinatos"
+      },
+      {
+        "nombre": "Plano de las Neuropticas",
+        "imagen": "/warframes-assets/shared/parts/Neuroptics.webp",
+        "fuente": "Ropalolyst Assassination",
+        "probabilidad": "25.81%",
+        "esperado": "~3 Asesinatos"
+      },
+      {
+        "nombre": "Plano de los Sistemas",
+        "imagen": "/warframes-assets/shared/parts/Systems.webp",
+        "fuente": "Ropalolyst Assassination",
+        "probabilidad": "25.81%",
+        "esperado": "~3 Asesinatos"
+      }
+    ]
+  },
+  "curiosidades": [
+    "Wisp es el primer Warframe diseñado sin pies en su modelo; como resultado, ella flota sobre el suelo constantemente, inclinándose hacia la dirección donde se mueva o flotando en posición vertical cuando está inmóvil.",
+    "Wisp fue mencionada por primera vez en el Devstream 115 junto con otros 2 Warframes sin nombre, y fue mencionada nuevamente en el Devstream 122 junto con Hildryn.",
+    "Wisp es el Warframe número 40 en ser presentado.",
+    "Las habilidades y animaciones de Wisp se presentaron en el Devstream 126.",
+    "El tema de Wisp gira en torno al Will-o'-the-wisp, apariciones de otro mundo mencionadas en diversos folclores. Son descritos más comúnmente como una luz ardiente que distraía y atraía a los viajeros incautos hacia su desaparición.",
+    "Wisp es una de los pocos Warframes cuyo plano principal se encuentra como recompensa de botín; las otras son Khora e Ivara.",
+    "Wisp es el primer Warframe que requiere Hexenon para construirse."
+  ],
+  "build": {
+    "votos": 1784,
+    "label": "Ravenous Wraith | Nourish Wisp SP General Use and Endurance Levelcap · ninjase",
+    "formas": 5,
+    "itemRank": 30,
+    "itemRankMax": 74,
+    "itemRankActual": 3,
+    "orokinReactor": true,
+    "stats": {
+      "duracion": {
+        "valor": "207%",
+        "positivo": true
+      },
+      "eficiencia": {
+        "valor": "45%",
+        "positivo": false
+      },
+      "rango": {
+        "valor": "145%",
+        "positivo": true
+      },
+      "fuerza": {
+        "valor": "267%",
+        "positivo": true
+      }
+    },
+    "mods": [
+      {
+        "tipo": "aura",
+        "nombre": "Worthy Comradery",
+        "imagen": "/warframes-assets/shared/mods/Worthy-Comradery.png",
+        "tooltip": "/warframes-assets/shared/mods/WorthyComraderyMod.png",
+        "polaridad": "Madurai",
+        "polaridadImg": "/warframes-assets/shared/polarities/Madurai_Pol.svg",
+        "forma": true
+      },
+      {
+        "tipo": "exilus",
+        "nombre": "Aero Vantage",
+        "imagen": "/warframes-assets/shared/mods/Aero-Vantage.png",
+        "tooltip": "/warframes-assets/shared/mods/AeroVantageMod.png",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Primed Continuity",
+        "imagen": "/warframes-assets/shared/mods/Primed-Continuity.png",
+        "tooltip": "/warframes-assets/shared/mods/PrimedContinuityMod.webp",
+        "polaridad": "Madurai",
+        "polaridadImg": "/warframes-assets/shared/polarities/Madurai_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Archon Stretch",
+        "imagen": "/warframes-assets/shared/mods/Archon-Stretch.png",
+        "tooltip": "/warframes-assets/shared/mods/ArchonStretchMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": true
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Constitution",
+        "imagen": "/warframes-assets/shared/mods/Constitution.png",
+        "tooltip": "/warframes-assets/shared/mods/ConstitutionMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": true
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Blind Rage",
+        "imagen": "/warframes-assets/shared/mods/Blind-Rage.png",
+        "tooltip": "/warframes-assets/shared/mods/BlindRageMod.webp",
+        "polaridad": "Madurai",
+        "polaridadImg": "/warframes-assets/shared/polarities/Madurai_Pol.svg",
+        "forma": true
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Equilibrium",
+        "imagen": "/warframes-assets/shared/mods/Equilibrium.png",
+        "tooltip": "/warframes-assets/shared/mods/EquilibriumMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Augur Secrets",
+        "imagen": "/warframes-assets/shared/mods/Augur-Secrets.png",
+        "tooltip": "/warframes-assets/shared/mods/AugurSecretsMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Umbral Intensify",
+        "imagen": "/warframes-assets/shared/mods/Umbral-Intensify.png",
+        "tooltip": "/warframes-assets/shared/mods/UmbralIntensifyMod.webp",
+        "polaridad": "Umbra",
+        "polaridadImg": "/warframes-assets/shared/polarities/Umbra_Pol.svg",
+        "forma": false
+      },
+      {
+        "tipo": "mod",
+        "nombre": "Augur Message",
+        "imagen": "/warframes-assets/shared/mods/Augur-Message.png",
+        "tooltip": "/warframes-assets/shared/mods/AugurMessageMod.webp",
+        "polaridad": "Naramon",
+        "polaridadImg": "/warframes-assets/shared/polarities/Naramon_Pol.svg",
+        "forma": true
+      }
+    ],
+    "arcanos": [
+      {
+        "nombre": "Arcane Concentration",
+        "imagen": "/warframes-assets/shared/arcanes/ArcaneConcentration.png",
+        "descripcion": "En ability cast: +60% Duración de la habilidad por 3.0s"
+      },
+      {
+        "nombre": "Arcane Crepuscular",
+        "imagen": "/warframes-assets/shared/arcanes/ArcaneCrepuscular.png",
+        "descripcion": "En invisibilidad, gana +30% Fuerza de habilidad y +3x Daño Crítico Final."
+      }
+    ]
+  }
+}
