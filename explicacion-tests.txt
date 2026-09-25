@@ -1,0 +1,95 @@
+COMO FUNCIONAN LOS TESTS - WHUB
+================================
+
+Idea general: cada test arma una mini version aislada de lo que prueba,
+reemplazando (mockeando) todo lo externo que no se quiere que corra de
+verdad (base de datos, internet, filesystem, reloj). Asi corren rapido y
+no dependen de que XAMPP este prendido, salvo los E2E.
+
+
+BACKEND (backend/routes/__tests__/)
+------------------------------------
+
+warframes.test.js
+  Mockea fs/promises (readFile, readdir) en vez de leer los 66 JSON reales
+  de backend/data/warframes. Se le dice a mano que archivos "existen" y que
+  contienen, para no depender de si alguien edita esos JSON despues.
+
+market.test.js
+  Mockea node-fetch completo. Simula distintas respuestas de warframe.market
+  (con vendedores, sin vendedores, error, etc.) sin salir a internet.
+
+auth.test.js y favoritos.test.js
+  Mockean backend/db.js (el pool de mysql2), osea el "query" que le pega a
+  los stored procedures. No tocan MySQL para nada. Ojo con el detalle: un
+  CALL a un stored procedure devuelve un array anidado un nivel mas que un
+  SELECT comun, hubo que respetar ese formato en los mocks.
+
+uploads.test.js
+  Es el UNICO que no mockea todo: usa Multer real y escribe archivos de
+  verdad en backend/uploads/avatars y /banners (para probar el filtro de
+  imagenes y el limite de tamaño tal cual funcionan). Por eso tiene un
+  afterEach que borra esos archivos de prueba despues de cada test, asi no
+  se van acumulando.
+
+
+FRONTEND (frontend/src/**/__tests__/)
+---------------------------------------
+
+test-utils.jsx (no es un test, es un helper compartido)
+  Envuelve cualquier componente en MemoryRouter + AuthProvider reales, y
+  permite precargar un usuario en localStorage para simular que ya esta
+  logueado. Lo usan casi todos los archivos de abajo para no repetir código.
+
+AuthContext.test.jsx
+  El unico que no mockea nada: prueba login/logout y el guardado en
+  localStorage directamente, sin red ni router.
+
+Login.test.jsx
+  Mockea fetch y useNavigate. Detalle particular: el panel de Login y el de
+  Registro estan siempre los DOS en el DOM (el toggle es solo visual con
+  CSS), asi que las queries se escopean a un panel puntual para no chocar
+  con inputs/botones duplicados.
+
+Catalogo.test.jsx
+  Mockea fetch para /api/warframes y /api/favoritos/:id segun la URL que
+  se pida. Prueba loading, error de carga, favoritos marcados, y que la
+  busqueda filtre en el navegador sin llamar de nuevo a la API.
+
+NavUserSearch.test.jsx
+  Ademas de mockear fetch, usa timers falsos (vi.useFakeTimers) porque el
+  componente tiene un debounce de 300ms antes de buscar. Se avanza el reloj
+  a mano en vez de esperar 300ms reales.
+
+Perfil.test.jsx
+  El mas grande. Mockea fetch para favoritos/historial/guardado de perfil.
+  Para probar la subida de avatar simula un archivo real (File + userEvent
+  upload) sobre el input oculto.
+
+PerfilAjeno.test.jsx
+  Parecido a Perfil pero de un usuario ajeno: usa un route param
+  (/perfil/:username) en vez de la sesion propia.
+
+Home.test.jsx
+  El mas simple: no llama a ninguna API, asi que solo mockea useNavigate.
+  Prueba botones de login/registro, cerrar sesion, y el menu hamburguesa
+  mobile.
+
+
+E2E (e2e/, con Playwright)
+----------------------------
+
+login.spec.js, user-search.spec.js, favoritos.spec.js
+  Estos NO mockean nada: navegador real, backend real (node server.js),
+  MySQL real. Cada test registra un usuario de prueba llamando directo a
+  POST /api/register (mas rapido que hacerlo por UI) y despues si prueba
+  el flujo real por la interfaz (login, buscar, favoritos).
+
+helpers.js
+  Genera usuarios de prueba con prefijo "e2e_" (para poder identificarlos
+  despues) y junta el registro + login en funciones reutilizables.
+
+global-teardown.js
+  Al terminar TODA la corrida, se conecta directo a MySQL y borra todos los
+  usuarios "e2e_*" que se hayan creado, para que la base no vaya
+  acumulando basura de test en test.

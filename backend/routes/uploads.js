@@ -1,15 +1,15 @@
 import express from 'express';
 import multer from 'multer';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import pool from '../db.js';
 
 const router = express.Router();
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const makeStorage = (carpeta) => multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, path.join(__dirname, `../uploads/${carpeta}`));
+    // process.cwd() (raíz de backend/) en vez de __dirname vía
+    // import.meta.url: ver la nota en server.js.
+    cb(null, path.join(process.cwd(), 'uploads', carpeta));
   },
   filename: (req, file, cb) => {
     const ext = path.extname(file.originalname);
@@ -27,6 +27,7 @@ const uploadBanner = multer({ storage: makeStorage('banners'), limits: { fileSiz
 
 // POST /api/uploads/avatar
 router.post('/avatar', uploadAvatar.single('imagen'), async (req, res) => {
+  if (!req.file) return res.status(400).json({ error: 'No se recibió ninguna imagen.' });
   const { id_usuario } = req.body;
   const url = `/uploads/avatars/${req.file.filename}`;
   try {
@@ -40,6 +41,7 @@ router.post('/avatar', uploadAvatar.single('imagen'), async (req, res) => {
 
 // POST /api/uploads/banner
 router.post('/banner', uploadBanner.single('imagen'), async (req, res) => {
+  if (!req.file) return res.status(400).json({ error: 'No se recibió ninguna imagen.' });
   const { id_usuario } = req.body;
   const url = `/uploads/banners/${req.file.filename}`;
   try {

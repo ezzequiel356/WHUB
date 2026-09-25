@@ -1,7 +1,6 @@
 import express from 'express';
 import cors from 'cors';
 import path from 'path';
-import { fileURLToPath } from 'url';
 import warframesRouter from './routes/warframes.js';
 import marketRouter from './routes/market.js';
 import authRouter from './routes/auth.js';
@@ -11,14 +10,18 @@ import historialRouter from './routes/historial.js';
 
 const app = express();
 const PORT = 3001;
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 app.use(cors({
   origin: 'http://localhost:5173'
 }));
 
 app.use(express.json());
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+// process.cwd() en vez de __dirname vía import.meta.url: al empaquetar el
+// backend con esbuild (bundle a CommonJS para poder compilarlo con
+// bytenode), import.meta.url queda vacío. El server siempre se arranca
+// desde la raíz de backend/ (local con "node server.js", y en Docker con
+// WORKDIR /app), así que process.cwd() apunta al mismo lugar en los dos casos.
+app.use('/uploads', express.static(path.join(process.cwd(), 'uploads')));
 
 app.use('/api/warframes', warframesRouter);
 app.use('/api/market', marketRouter);

@@ -1,0 +1,58 @@
+services:
+  db:
+    build:
+      context: ./db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      MYSQL_DATABASE: warframe
+      DB_APP_PASSWORD: ${DB_APP_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+      # Se ejecutan una sola vez, la primera vez que el volumen está vacío:
+      # 01-schema.sql crea tablas y procedures, 02-permisos-app.sh crea el
+      # usuario restringido que usa el backend.
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    # Puerto no expuesto al host por defecto (no hace falta para que la app
+    # funcione, solo el backend le habla por la red interna de Docker).
+    # Descomentar para conectarte con un cliente MySQL desde tu máquina:
+    # ports:
+    #   - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${DB_ROOT_PASSWORD}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    environment:
+      DB_HOST: db
+      DB_USER: whub_app
+      DB_PASS: ${DB_APP_PASSWORD}
+      DB_NAME: warframe
+    volumes:
+      # Los avatares/banners subidos en runtime viven en un volumen, no en
+      # la imagen (la imagen solo tiene el bytecode compilado).
+      - backend_uploads:/app/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+    restart: unless-stopped
+    ports:
+      # 8080 por defecto para no chocar con otras cosas que ya usan el 80
+      # en esta máquina (ej. Apache de XAMPP). Para la entrega real al
+      # cliente, poner FRONTEND_PORT=80 en el .env de esa máquina.
+      - "${FRONTEND_PORT:-8080}:80"
+    depends_on:
+      - backend
+
+volumes:
+  db_data:
+  backend_uploads:

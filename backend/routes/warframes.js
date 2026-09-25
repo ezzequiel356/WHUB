@@ -1,11 +1,11 @@
 import express from 'express';
 import { readFile, readdir } from 'fs/promises';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { join } from 'path';
 
 const router = express.Router();
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = join(__dirname, '../data/warframes');
+// process.cwd() (raíz de backend/) en vez de __dirname vía import.meta.url:
+// ver la nota en server.js sobre por qué, al empaquetar con esbuild+bytenode.
+const DATA_DIR = join(process.cwd(), 'data/warframes');
 
 // GET /api/warframes — resumen de todos los warframes
 router.get('/', async (req, res) => {
