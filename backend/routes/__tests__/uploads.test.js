@@ -1,9 +1,9 @@
-import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+import { describe, it, expect, vi, beforeAll, beforeEach, afterEach } from 'vitest';
 import express from 'express';
 import request from 'supertest';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { readdir, unlink } from 'fs/promises';
+import { mkdir, readdir, unlink } from 'fs/promises';
 import pool from '../../db.js';
 import uploadsRouter from '../uploads.js';
 
@@ -44,6 +44,14 @@ async function limpiarArchivosDeTest() {
     await Promise.all(propios.map((f) => unlink(path.join(dir, f)).catch(() => {})));
   }
 }
+
+// backend/uploads/ está en .gitignore (los archivos subidos no son código),
+// así que en un checkout nuevo (como el workspace de Jenkins) esas carpetas
+// no existen todavía. Multer no las crea solo, hay que asegurarlas acá.
+beforeAll(async () => {
+  await mkdir(path.join(UPLOADS_DIR, 'avatars'), { recursive: true });
+  await mkdir(path.join(UPLOADS_DIR, 'banners'), { recursive: true });
+});
 
 beforeEach(() => {
   vi.resetAllMocks();
